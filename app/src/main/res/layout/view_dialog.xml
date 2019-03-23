@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/etTitile"
+        android:hint="Enter the titile here"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:id="@+id/etSubtitle"
+                  android:hint="enter subtitile"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
